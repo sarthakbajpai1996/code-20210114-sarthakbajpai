@@ -55,8 +55,8 @@ def main_handler(data):
 	calculate_bmi(df)
 	bmi_category(df)
 	health_risk(df)
-	print(df)
+	return df
 
 
 if __name__ == '__main__':
-	main_handler(json_data)
+	print(main_handler(json_data))
