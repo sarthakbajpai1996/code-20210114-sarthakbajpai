@@ -1,1 +1,1 @@
-# code-20210114-sarthakbajpai
+Run python3.7 BMI_CALC.py
